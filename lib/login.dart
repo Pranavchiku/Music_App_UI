@@ -134,19 +134,22 @@ class _LoginPageState extends State<LoginPage> {
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Container(
-                    width: 50,
-                    height: 50,
-                    decoration: BoxDecoration(
-                      border: Border.all(
-                        color: Colors.grey,
+                  GestureDetector(
+                    onTap: () {},
+                    child: Container(
+                      width: 50,
+                      height: 50,
+                      decoration: BoxDecoration(
+                        border: Border.all(
+                          color: Colors.grey,
+                        ),
+                        color: Colors.white,
+                        borderRadius: BorderRadius.circular(10),
                       ),
-                      color: Colors.white,
-                      borderRadius: BorderRadius.circular(10),
-                    ),
-                    child: Icon(
-                      Icons.apple,
-                      color: Colors.black,
+                      child: Icon(
+                        Icons.apple,
+                        color: Colors.black,
+                      ),
                     ),
                   ),
                   SizedBox(width: 20),
