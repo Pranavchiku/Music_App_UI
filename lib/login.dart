@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:music_app/index.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({Key? key}) : super(key: key);
@@ -109,7 +110,7 @@ class _LoginPageState extends State<LoginPage> {
               RaisedButton(
                 onPressed: () => {
                   Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => LoginPage())),
+                      MaterialPageRoute(builder: (context) => Index())),
                 },
                 elevation: 0,
                 padding: EdgeInsets.all(18),
