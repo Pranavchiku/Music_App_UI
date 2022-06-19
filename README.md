@@ -10,3 +10,8 @@ An user friendly UI for Music Application, inspired from @johnnycreated instagra
 <p float="left">
 <img src = "https://github.com/Pranavchiku/Music_App_UI/blob/main/App%20Images/App%20.png" width="400" height="392">
 </p>
+<p float="left">
+<img src = "https://github.com/Pranavchiku/Music_App_UI/blob/main/App%20Images/Main%20Page.jpg" width="200" height="440">
+<img src = "https://github.com/Pranavchiku/Music_App_UI/blob/main/App%20Images/Music%20Playing%20Page.jpg" width="200" height="440">
+  
+</p>
