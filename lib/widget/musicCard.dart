@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:music_app/musicPlay.dart';
 
 class musicCard extends StatefulWidget {
   String? musicName;
@@ -48,9 +49,15 @@ class _musicCardState extends State<musicCard> {
           style: TextStyle(fontSize: 14, color: Colors.grey),
         ),
         Spacer(),
-        Icon(
-          Icons.play_arrow,
-          size: 35,
+        IconButton(
+          icon: Icon(
+            Icons.play_arrow,
+            size: 35,
+          ),
+          onPressed: () {
+            Navigator.push(
+                context, MaterialPageRoute(builder: (context) => MusicPlay()));
+          },
         ),
       ],
     );

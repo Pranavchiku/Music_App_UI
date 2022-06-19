@@ -79,7 +79,7 @@ class _IndexState extends State<Index> {
               ),
               SizedBox(height: 30),
               musicCard(
-                musicName: "why back home",
+                musicName: "Why back home",
                 musicAuthor: "Shaun",
                 musicDuration: "1:50",
               ),
