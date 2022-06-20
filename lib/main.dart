@@ -40,6 +40,7 @@ class _LandingPageState extends State<LandingPage> {
           height: size.height,
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Text(
                 "Discover new \nmusic everyday",
@@ -48,7 +49,6 @@ class _LandingPageState extends State<LandingPage> {
                       fontWeight: FontWeight.w800,
                     ),
               ),
-              SizedBox(height: 30),
               Text(
                 "Get matched with new music \neveryday the more you listen and like",
                 style: TextStyle(
@@ -56,7 +56,6 @@ class _LandingPageState extends State<LandingPage> {
                   fontSize: 16,
                 ),
               ),
-              SizedBox(height: 30),
               Container(
                 height: MediaQuery.of(context).size.height / 3,
                 decoration: const BoxDecoration(
@@ -65,7 +64,6 @@ class _LandingPageState extends State<LandingPage> {
                   ),
                 ),
               ),
-              SizedBox(height: 30),
               RaisedButton(
                 onPressed: () => {
                   Navigator.push(context,

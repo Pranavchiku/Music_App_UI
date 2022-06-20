@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:music_app/index.dart';
+import 'package:flutter_feather_icons/flutter_feather_icons.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({Key? key}) : super(key: key);
@@ -181,7 +182,7 @@ class _LoginPageState extends State<LoginPage> {
                       borderRadius: BorderRadius.circular(10),
                     ),
                     child: Icon(
-                      Icons.apple,
+                      FeatherIcons.github,
                       color: Colors.black,
                     ),
                   ),
